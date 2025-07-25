@@ -8,7 +8,7 @@ app = FastAPI(title="ETF 탐색 API")
 
 # 단순 세션 메시지 저장 (실서비스면 세션ID별로 분리 추천)
 messages = [
-    {"role": "assistant", "content": "앙앙 어떤 ETF를 보여줄까?."}
+    {"role": "assistant", "content": "안녕하세요, ETF의 구성종목을 알려드립니다."}
 ]
 
 class QueryRequest(BaseModel):
